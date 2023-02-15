@@ -27,11 +27,7 @@ const Home = () => {
         showStatus={false}
       >
         {popularMovies.map((movie) => (
-<<<<<<< HEAD
-            <Link style={{textDecoration:"none",color:"white"}} to={`/movie/${movie.id}`}>
-=======
             <Link style={{textDecoration:"none",color:"white"}} to={`movie/${movie.id}`}>
->>>>>>> feature1
 
             <div className="posterImage">
               <img src={`https://image.tmdb.org/t/p/original${movie && movie.backdrop_path}`} alt="" />
