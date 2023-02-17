@@ -1,5 +1,6 @@
 import "./Header.css";
 
+import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import { Link } from "react-router-dom";
 import React from 'react';
 
@@ -11,6 +12,9 @@ const Header = () => {
             <Link to="/movies/popular" style={{textDecoration:"none"}} ><span>Popular</span></Link>
             <Link to="/movies/top_rated" style={{textDecoration:"none"}} ><span>Top Rated</span></Link>
             <Link to="/movies/upcoming" style={{textDecoration:"none"}} ><span>Upcoming</span></Link>
+        </div>
+        <div className="headerRight user_avatar">
+            <AccountCircleIcon />
         </div>
     </div>
   )
