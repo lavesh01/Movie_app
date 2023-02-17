@@ -1,6 +1,6 @@
 .header {
     margin: 0.25rem;
-    padding: .5rem 0;
+    padding: .5rem .5rem;
     align-items: center;
     display: flex;
     justify-content: space-between;
@@ -8,12 +8,13 @@
 
 .headerLeft .headerRight {
     display: flex;
-    align-items: center;
+    align-items: center !important;
+    justify-content: center;
 }
 
 a > span {
     margin: 0 30px;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     cursor: pointer;
     color: white;
 }
@@ -29,5 +30,9 @@ a span:hover {
 
 .user_avatar {
     font-size: 2rem;
+    cursor: pointer;
+}
+.MuiSvgIcon-root {
+    font-size: 2rem !important;
 }
 
